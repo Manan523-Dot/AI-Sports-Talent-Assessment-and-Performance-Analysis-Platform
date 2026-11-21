@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-multipart
+opencv-python
+mediapipe
+numpy
+pandas
+scikit-learn
+SQLAlchemy
+imageio-ffmpeg
+joblib

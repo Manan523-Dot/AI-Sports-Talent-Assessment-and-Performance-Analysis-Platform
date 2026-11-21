@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# Cache and logs
+.pytest_cache/
+.mypy_cache/
+*.log
+
+# Local databases
+*.db
+*.sqlite3
+
+# Temporary files
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Generated videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Generated/trained model artifacts (keep the MediaPipe .task model)
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+
+# Ignore generated data but preserve required runtime folders
+/data/raw/*
+/data/uploads/*
+!/data/uploads/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+
+# Project inspection files
+project_files.txt
+project_structure.txt
+small_tree.txt
